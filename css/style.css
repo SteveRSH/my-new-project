@@ -5,3 +5,33 @@ body {
   letter-spacing: 0.15em;
     background-color: #efefef;
 }
+
+.heading {
+  color: navy;
+  text-align: center;
+  text-shadow: 3px 3px 5px #66A3D2;
+  font-family: fantasy, cursive, sans-serif;
+}
+
+a:link {color: #001FC5;}
+a:visited {color: #2F3B78;}
+a:hover {color: #2B6F6F;}
+a:active {color: #1D39CE;}
+
+#snapshots {
+  color: #033e6b;
+}
+
+.list li {color: #1a1e2c;}
+
+.newphotos {
+  color: #2e0058;
+}
+
+#archive {
+  color: purple;
+}
+
+.adjustments {
+  color: purple;
+}
