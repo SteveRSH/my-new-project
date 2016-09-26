@@ -3,14 +3,24 @@ body {
   font-size: 80%;
   font-family: Arial, Courier, monospace;
   letter-spacing: 0.15em;
-    background-color: #efefef;
+    background-color: grey;
 }
 
-.heading {
+.wrapper {
+  width: 600px;
+  margin: auto;
+}
+
+header a {
   color: navy;
-  text-align: center;
+  text-align: left;
   text-shadow: 3px 3px 5px #66A3D2;
   font-family: fantasy, cursive, sans-serif;
+  text-decoration: none;
+}
+
+header a:hover {
+  color: red;
 }
 
 a:link {color: #001FC5;}
@@ -20,6 +30,9 @@ a:active {color: #1D39CE;}
 
 #snapshots {
   color: #033e6b;
+}
+
+h3 a {text-decoration: none;
 }
 
 .list li {color: #1a1e2c;}
@@ -35,3 +48,68 @@ a:active {color: #1D39CE;}
 .adjustments {
   color: purple;
 }
+
+.wrap {
+  margin: ;
+  width: 1450px;
+  height: 350px;
+  background: #CED0D2;
+}
+
+footer {
+  padding: 10px;
+  background: grey;
+  width: 1430px;
+}
+
+section {
+  padding: 0;
+}
+
+#snapshots {
+  float: left;
+  width: 45%;
+}
+
+#newphotos {
+  float: left;
+  width: 45%;
+}
+
+.wrapper2 {
+  margin: ;
+  width: 1450px;
+  height: 100px;
+  background: #CED0D2;
+}
+
+#archive {
+  float: left;
+  width: 45%;
+}
+
+#adjustments {
+  float: left;
+  width: 45%;
+}
+
+th, td {
+  padding: 0 10px 10px 10px;
+  text-indent: 25px;
+}
+
+
+.newphotos {font-family: fantasy;
+            font-color: black;}
+
+.h3 a{font-family: fantasy;
+color: black;}
+
+.adjustments {font-family: fantasy;
+color: black;}
+
+.list {font-family: fantasy;
+color: black;}
+
+.figcaption {font-family: fantasy;
+color: black;}
